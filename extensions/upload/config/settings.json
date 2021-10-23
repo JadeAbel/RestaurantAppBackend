@@ -1,0 +1,8 @@
+{
+  "provider": "aws-s3",
+  "providerOptions": {
+    "params": {
+      "Bucket": "${process.env.arn:aws:s3:::jadeabelrestaurantapp}"
+    }
+  }
+}
